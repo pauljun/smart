@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>html</title>
+  </head>
+  <body>
+    <div id="app"></div>
+	<script type="text/javascript">
+        window.userLogin;
+        window.vodArr;
+        function login(loginType, userId, roomId, nonce, mode, ak){
+            var msg = {};
+            msg.loginType = loginType;
+            msg.userId = userId;
+            msg.roomId = roomId;
+            msg.nonce = nonce;
+            msg.mode = mode;
+            msg.ak = ak;
+            userLogin = msg;
+        }
+		login(1,1, 1, "www", 2, "B88362D7D3DF99BC67B613279BEB2AE465CA5D83");
+	</script>
+  </body>
+</html>
